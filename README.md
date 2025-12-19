@@ -35,7 +35,7 @@
 ### Prerequisites
 Ensure you have the following installed on your system:
 - **Git** version 2.45.1 or higher
-- **Python** version 3.11.0 or higher  
+- **Python** version 3.14.0 or higher  
 - **Windows OS** (Linux/macOS support coming in future releases)
 
 **Step 1: Open Command Prompt**
