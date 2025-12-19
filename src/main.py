@@ -5,7 +5,7 @@ from decryption.vigenere import Vigenere
 class PwnStarToolkit:
     def __init__(self):
         self.banner = Banner()
-        self.hash_cracker = HashCrack()
+        self.hash = HashCrack()
         self.vigenere = Vigenere()
 
         self.run()
@@ -18,7 +18,7 @@ class PwnStarToolkit:
             if option == "0" or option == "exit":
                 break
             elif option == '1':
-                self.hash_cracker.crack()
+                self.hash.crack()
             elif option == '2':
                 self.vigenere.decode()
             else:
